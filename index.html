@@ -8,10 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<div class="d-flex align-items-center"> 
+<div class="d-flex justify-content-center"> 
 <div id="observablehq-fish-0a66cf8b"></div>
 <div id="observablehq-viewof-generateButton-0a66cf8b"></div>
- 
+  </div>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -21,7 +21,7 @@ new Runtime().module(define, name => {
   if (name === "viewof generateButton") return new Inspector(document.querySelector("#observablehq-viewof-generateButton-0a66cf8b"));
 });
 </script>
- </div>
+
 </body>
 </html>
 
