@@ -1,0 +1,12 @@
+<div id="observablehq-fish-0a66cf8b"></div>
+<div id="observablehq-viewof-generateButton-0a66cf8b"></div>
+ 
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@obey/untitled/5.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "fish") return new Inspector(document.querySelector("#observablehq-fish-0a66cf8b"));
+  if (name === "viewof generateButton") return new Inspector(document.querySelector("#observablehq-viewof-generateButton-0a66cf8b"));
+});
+</script>
